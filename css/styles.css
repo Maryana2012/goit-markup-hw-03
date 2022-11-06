@@ -82,9 +82,11 @@ img{
     display: flex; 
     gap: 50px;}
 .nav-link {
+    display: block;
     padding-top: 32px;
     padding-bottom: 32px;}
 .nav-site .link {
+    display: block;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -143,8 +145,7 @@ img{
 
 /* -----------------------------------sections--------------------------------- */
 .section {
-    padding-top: 94px;
-    padding-bottom: 94px;}    
+    padding-bottom: 94px;}     
 .section-title {
     margin-top: 0;
     margin-bottom: 50px;
@@ -155,10 +156,13 @@ img{
 .list-advantage {
     display: flex;
     gap: 30px;}
+.section-advantage {
+    padding-top: 94px;
+    padding-bottom: 94px;}
 .section-subtitle-ad {
     margin-top: 0;
     margin-bottom: 10px;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase; 
     color: var(--title-second-text-color);}
@@ -172,9 +176,12 @@ img{
     width: 370px;}
 .section-team {
     background-color: var(--background-team-color);}
-.section-subtitle-tm {
+.text-team {
+    background-color: var(--title-text-color);
     padding-top: 30px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;}
+.section-subtitle-tm {
+    margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;  
@@ -182,8 +189,6 @@ img{
     background-color: var(--title-text-color);
     color: var(--title-second-text-color);}
 .section-text-tm  {
-    margin-top: 0;
-    padding-bottom: 30px;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -201,6 +206,9 @@ img{
     padding-bottom: 60px;
     background-color: var(--background-hero-color);} 
 .footer-logo{
+    display: block;
+    margin-bottom: 20px;
+    font-weight: 700;
     font-size: 26px;
     color: var(--title-text-color);}
 .page-footer .address {
@@ -209,16 +217,20 @@ img{
 .page-footer .contact {
     font-style: normal;
     color: var(--footer-text-color);}
- .address:hover , .contact:hover {
+.address:hover , .contact:hover {
     color: var(--accent-text-color);}
- .address:focus , .contact:focus {
+.address:focus , .contact:focus {
     color: var(--accent-text-color);}
+.link-footer {
+    display: block;
+    margin-bottom: 9px;}
+
 
 /*------------------------- styles for portfolio------------------- */
 
 .header-portfolio {
-    padding-bottom: 32px;
-    border-bottom: 1px solid #ECECEC;}
+    border-bottom: 1px solid #ECECEC;
+    margin-bottom: 94px;}
 .button-filter {
     border: none;
     padding: 6px 22px;
