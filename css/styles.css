@@ -54,10 +54,10 @@ img{
 
 /*--------------------------- header------------------------------ */
 
-.page-header {
+/* .page-header {
     padding-top: 24px;
     padding-bottom: 25px;}
-  
+   */
 
 /*---------------------------- logo-------------------------------  */
 .header-container{
@@ -83,8 +83,8 @@ img{
     gap: 50px;}
 .nav-link {
     display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;}
+    padding-top: 24px;
+    padding-bottom: 25px;}
 .nav-site .link {
     display: block;
     font-weight: 500;
@@ -175,6 +175,7 @@ img{
     gap: 30px; 
     width: 370px;}
 .section-team {
+    padding-top: 94px;
     background-color: var(--background-team-color);}
 .text-team {
     background-color: var(--title-text-color);
@@ -221,9 +222,12 @@ img{
     color: var(--accent-text-color);}
 .address:focus , .contact:focus {
     color: var(--accent-text-color);}
-.link-footer {
-    display: block;
+.list-footer {
+    /* display: block-inline; */
     margin-bottom: 9px;}
+.list-footer:last-child{
+    margin-bottom: 0;
+}    
 
 
 /*------------------------- styles for portfolio------------------- */
@@ -232,6 +236,7 @@ img{
     border-bottom: 1px solid #ECECEC;
     margin-bottom: 94px;}
 .button-filter {
+    border-radius: 4px;
     border: none;
     padding: 6px 22px;
     font-family: inherit;
